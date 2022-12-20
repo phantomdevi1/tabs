@@ -1,0 +1,19 @@
+.tabs_list{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  
+}
+
+.tabs_content{
+  display: none;
+}
+.tabs_content--active{
+  display: block;
+}
+.tabs_btn{
+  color: black;
+}
+.tabs__btn--active{
+  color: red;
+}

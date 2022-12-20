@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  
+  <div class="tabs">
+    <ul class="tabs_list">
+      <li class="tabs_item"><button class="tabs_btn tabs__btn--active" data-tabs-path="o_tovare">О товаре</button></li>
+      <li class="tabs_item"><button class="tabs_btn"  data-tabs-path="harakter">Характеристики</button></li>
+      <li class="tabs_item"><button class="tabs_btn"  data-tabs-path="aksessuari">Аксессуары</button></li>
+      
+    </ul>
+    <div class="tabs_content tabs_content--active" data-tabs-target="o_tovare">
+      <div class="content_tab">
+      <h2 class="content_title">
+        О товаре
+      </h2>
+      <p class="tabs_content_descr">
+        тут о товаре чё нить накидаю
+      </p>
+    </div>
+      
+    </div>
+    <div class="tabs_content" data-tabs-target="harakter">
+      <div class="content">
+      <h2 class="content_title">
+        Характеристики
+      </h2>
+      <p class="tabs_content_descr">
+        Воьму с мвидео
+      </p>
+    </div>
+  </div>
+    <div class="tabs_content" data-tabs-target="aksessuari">
+      <div class="content">
+      <h2 class="content_title">
+        Аксессуары
+      </h2>
+      <p class="tabs_content_descr">
+        ну тут хз
+      </p>
+    </div>
+  </div>
+</div>
+  
+</body>
+</html>
